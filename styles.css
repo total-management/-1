@@ -1,0 +1,12 @@
+:root{
+  --primary:#0EA5E9; --accent:#F59E0B; --dark:#0F172A; --light:#F8FAFC;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, "Noto Sans JP", system-ui, sans-serif;color:var(--dark);background:var(--light)}
+.container{max-width:1100px;margin:auto;padding:0 16px}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-weight:800;text-decoration:none;color:var(--dark)}
+.nav a{margin-left:16px;text-decoration:none;color:var(--dark)}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;border:1px solid #cbd5e1;text-decoration:none}
+.btn--primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+/* 以下、LP本文のCSSはキャンバス内オリジナルの通り */
