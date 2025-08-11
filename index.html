@@ -20,3 +20,129 @@
   <!-- 以降、LP本文はキャンバス内オリジナルの通り -->
 </body>
 </html>
+<main>
+  <!-- HERO -->
+  <section id="hero" class="section hero">
+    <div class="container">
+      <h1>結果にこだわる、完全予約制パーソナルジム</h1>
+      <p class="lead">初回体験0円。食事指導つきで最短ルートへ。</p>
+      <a href="#contact" class="btn btn--primary">今すぐ体験を予約</a>
+      <!-- 画像を使うなら -->
+      <!-- <img src="./images/hero.jpg" alt="トレーニング風景" class="hero__img"> -->
+    </div>
+  </section>
+
+  <!-- 特長 -->
+  <section id="features" class="section features">
+    <div class="container grid-3">
+      <div class="card">
+        <h3>マンツーマン</h3>
+        <p>目的と体力に合わせた完全オーダーメイド指導。</p>
+      </div>
+      <div class="card">
+        <h3>食事サポート</h3>
+        <p>LINEで毎日フィードバック。外食でも続く。</p>
+      </div>
+      <div class="card">
+        <h3>完全予約制</h3>
+        <p>混雑なしで集中。手ぶらOKのレンタル完備。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 料金 -->
+  <section id="plans" class="section plans">
+    <div class="container">
+      <h2>料金プラン</h2>
+      <div class="plans__grid">
+        <article class="plan">
+          <h3>体験（初回）</h3>
+          <p class="price">¥0</p>
+          <ul>
+            <li>60分カウンセリング＋トレーニング</li>
+            <li>目標設計シート進呈</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">体験を予約</a>
+        </article>
+        <article class="plan plan--recommended">
+          <h3>月8回コース</h3>
+          <p class="price">¥35,000</p>
+          <ul>
+            <li>週2回×60分</li>
+            <li>食事指導・フォーム動画共有</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">このプランで申し込む</a>
+        </article>
+        <article class="plan">
+          <h3>月4回コース</h3>
+          <p class="price">¥20,000</p>
+          <ul>
+            <li>週1回×60分</li>
+            <li>食事アドバイス月2回</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">このプランで申し込む</a>
+        </article>
+      </div>
+      <p class="note">※価格は税込。ウェア・タオル無料レンタル。</p>
+    </div>
+  </section>
+
+  <!-- トレーナー -->
+  <section id="trainer" class="section trainer">
+    <div class="container grid-2">
+      <!-- <img src="./images/trainer.jpg" alt="担当トレーナー" class="trainer__img"> -->
+      <div>
+        <h2>トレーナー</h2>
+        <h3>山田 太郎</h3>
+        <p>パワーリフティング全国入賞。ダイエットから競技力向上まで幅広く担当。</p>
+        <ul class="badges">
+          <li>NSCA-CPT</li>
+          <li>栄養コンシェルジュ</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section id="access" class="section access">
+    <div class="container">
+      <h2>アクセス</h2>
+      <p>東京都〇〇区〇〇1-2-3 GritLab B1F（〇〇駅 徒歩3分）</p>
+      <!-- 地図を埋め込むなら：
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=..."></iframe>
+      -->
+      <div class="access__hours">
+        <strong>営業時間：</strong> 平日 9:00–22:00 / 土日祝 9:00–20:00（不定休）
+      </div>
+    </div>
+  </section>
+
+  <!-- 申込フォーム -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>体験申込</h2>
+      <form action="https://docs.google.com/forms/d/e/your-form-id/formResponse" method="POST" class="form">
+        <div class="form__row">
+          <label>お名前 <input type="text" name="entry.name" required></label>
+        </div>
+        <div class="form__row">
+          <label>メール <input type="email" name="entry.email" required></label>
+        </div>
+        <div class="form__row">
+          <label>希望日時 <input type="text" name="entry.date" placeholder="例）8/20 午後希望"></label>
+        </div>
+        <div class="form__row">
+          <label>ご要望 <textarea name="entry.note" rows="4"></textarea></label>
+        </div>
+        <button type="submit" class="btn btn--primary">送信する</button>
+      </form>
+      <p class="privacy">送信によりプライバシーポリシーに同意したものとみなします。</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <small>© GritLab Personal Gym</small>
+  </div>
+</footer>
